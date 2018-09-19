@@ -1,0 +1,19 @@
+body{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    float: center;
+}
+
+.wrapper{
+    background-color: lightblue;
+    border: black solid 3px;
+}
+
+h2{
+    color: green;
+}
+
+h3{
+    color: red;
+}

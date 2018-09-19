@@ -44,12 +44,12 @@ document.onkeyup = function (event) {
 
       } else {
             usedArray.push(playerGuess);
-            document.getElementById('playerGuess').innerHTML = usedArray;
+            document.getElementById("playerGuess").innerHTML = usedArray;
             console.log(usedArray);
       }
       
-      document.getElementById('won').innerHTML = won;
-      document.getElementById('lost').innerHTML = lost;
-      document.getElementById('attempts').innerHTML = attempts;
+      document.getElementById("wins").innerHTML = won;
+      document.getElementById("losses").innerHTML = lost;
+      document.getElementById("attempts").innerHTML = attempts;
 }
 
